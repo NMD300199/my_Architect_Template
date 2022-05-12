@@ -1,0 +1,248 @@
+.navbar {
+    height: 55px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 #b8b8b8;    display: flex;
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 8px 16px;
+    align-items: center;
+    letter-spacing: 4px;
+    z-index: 1;
+}
+
+.navbar_head {
+    display: inherit;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+.navbar_head:hover,
+.navbar_list-item a:hover{
+    background-color: #ccc;
+}
+
+.navbar_head p{
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.navbar_list{
+    margin: 0;
+}
+.navbar_list-item {
+    display: inline-block;
+    list-style: none;
+    margin-left: -10px;
+}
+
+.navbar_list-item a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+}
+
+/* header */
+.header{
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.header_img{
+    margin-top: 55px;
+    width: 100%;
+}
+
+.header_logo {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: #fff;
+    align-items: baseline;
+    letter-spacing: 3px;
+}
+
+.header_logo-br {
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 8px 16px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/* project */
+#project{
+    padding-top: 30px;
+}
+.project-header{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f1f1f1;
+    margin: 42px 0;
+}
+
+.project_list{
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.project_list-img{
+    width: 100%;
+}
+
+.project_list-little{
+    position: absolute;
+    top: 0;
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* About */
+#about{
+    padding-top: 30px;
+}
+
+.about_header{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+    margin: 16px 0;
+}
+
+.about_content{
+    margin: 15px 0;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.about_inf{
+    margin-top: 30px;
+}
+
+.about_list{
+    margin-bottom: 16px;
+}
+
+.about_list-img{
+    width: 100%;
+}
+
+.about_list-name{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.about_list-job{
+    display: block;
+    font-size: 15px;
+    line-height: 1;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+
+.about_list-content{
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 15px 0;
+}
+
+.about_list-btn{
+    width: 100%;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 8px 16px;
+}
+
+.about_list-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* Contact */
+#contact{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contact_header{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+    margin: 16px 0;
+}
+
+.contact_header-little{
+    font-size: 15px;
+    line-height: 1;
+    margin: 15px 0;
+}
+
+.contact_input{
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+
+.contact_btn{
+    font-size: 15px;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #fff;
+}
+
+.contact_btn:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Map */
+.map{
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    margin-top: 10px;
+    height: 85px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #000000;
+    color: #fff;
+    line-height: 85px;
+    text-align: center;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.footer a:hover{
+    color: #4caf50;
+}
